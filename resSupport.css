@@ -1,0 +1,199 @@
+@media screen and (max-width: 1500px) {
+    #main{
+        margin-right: 270px;
+    }
+    #info{
+        right: 0;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #main{
+        margin-left: -50px;
+    }
+    #info{
+        right: -20px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #main{
+        margin: auto;
+        margin-top: 200px;
+    }
+    #info{
+        left: 0;
+        right: -40px;
+    }
+    #ss{
+        display: block;
+    }
+    #ss2{
+        display: none;
+    }
+}
+@media screen and (max-width: 940px) {
+    #info2 .info-text2 {
+        width: 600px;
+        height: 500px;
+    }
+    .about-me2{
+        flex-wrap: wrap;
+    }
+    #nmr{
+        margin-right: -70px;
+    }
+    #main{
+        width: 690px;
+        height: auto;
+    }
+    #about-me-title h1{
+        margin-top: 80px;
+    }
+    #info2{
+        width: 600px;
+    }
+    #contact-title h1 {
+        margin-top: 80px;
+    }
+    #tags p {
+        margin-bottom: 20px;
+    }
+    #contact-field a {
+        margin-right: 22rem !important; 
+    }
+    nav{
+        width: 688px;
+    }
+}
+@media screen and (max-width: 725px) {
+    #main{
+        width: 590px;
+    }
+    #con{
+        display: block;
+        margin-top: 80px;
+    }
+    .button2{
+        margin-right: 95%;
+    }
+
+    #main{
+        height: auto;
+    }
+    #contact-field a {
+        margin-right: 16.6rem !important; 
+    }
+    #contact-field .nn input{
+        width: 99%;
+    }
+    #contact-field .nn input:nth-child(2){
+        margin-right: 0px;
+    }
+    #contact-field textarea{
+        width: 99%;
+    }
+    nav{
+        width: 588px;
+    }
+
+}
+@media screen and (max-width: 610px) {
+    #ps03{
+        margin-bottom: 40px;
+    }
+    #main{  
+        width: 450px;
+    }
+    #info2 .info-text2 {
+        width: 450px;
+        height: 580px;
+    }
+    #info2{
+        width: 450px;
+    }
+    #nmr{
+        margin-right: 0px;
+    }
+    #nmq{
+        margin-right: -70px;
+    }
+    #navv{
+        display: block !important;
+    }
+    .about-me2 a{
+        margin-bottom: 40px;
+    }
+    #contact-field a {
+        margin-right: 7.9rem !important; 
+    }
+}
+@media screen and (max-width: 480px) {
+    #info2 .info-text2 {
+        width: 350px;
+        height: 640px;
+    }
+    #main{  
+        width: 350px;
+        height: auto;
+    }
+    #info2{
+        width: 350px;
+        margin-top: -62px;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    #contact-field a {
+        margin-right: 1.6rem !important; 
+    }
+    
+    
+}
+@media screen and (max-width: 350px) {
+    #info2 .info-text2 {
+        width: 320px;
+        height: 650px;
+    }
+    #main{  
+        width: 320px;
+        height: auto;
+    }
+    #info2{
+        width: 320px;
+        margin-top: -70px;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    #contact-field a {
+        margin-right: -1rem !important; 
+    }
+    #con h1{
+        font-size: 33px;
+    }
+    
+    
+}

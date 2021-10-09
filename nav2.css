@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'LZ';
+    src: url("../fonts/LalezarFont.ttf");
+}
+@font-face {
+    font-family: 'AZ';
+    src: url("../fonts/Araz.ttf");
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Lz";
+    transition: .6s;
+}
+#navv{
+    display: none;
+}
+#navv .sidebar{
+    direction: rtl;
+    position: fixed;
+    margin-top: -780px;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    background: white;
+    box-shadow: inset -200px 0px 508px rgba(124, 171, 188, .4),inset 200px 0px 508px rgba(124, 171, 188, .4);
+}
+#navv .sidebar h1{
+    font-size:  3em;
+    box-shadow: inset -300px 0px 98px rgba(124, 171, 188, .2),inset 300px 0px 98px rgba(124, 171, 188, .2);
+    padding: 2rem 17.5px;
+    text-align: center;
+    color: #277DFF;
+}
+#navv .items{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+}
+#navv .items li{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    padding-left: 20px;
+    color: #277DFF;
+    list-style-type: none;
+    cursor: pointer;
+}
+#navv .items li a{
+    color: #277DFF;
+}
+#navv .items i{padding: 5px;
+    margin-left: 20px;}
+    #navv .items li:hover i{
+    color: rgb(72, 42, 241);
+    transform: rotate(1turn);
+}
+#navv .items li:hover{
+    background: rgba(108, 233, 255, 0.534);
+    color: rgb(72, 42, 241);
+    padding-left: 40px;
+    padding: 20px;
+}
+#navv input{display: none;}
+#navv label #menu,label #close{
+    font-size: 20px;
+    position: fixed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#navv label #menu{
+    position: fixed;
+    left: 0px;
+    font-size: 39px;
+    margin: auto;
+    margin-top: -770px;
+    padding: 10px 15px;
+    background: transparent;
+    border-radius: 500px;
+    background-color: #277dff88;
+    box-shadow: inset -5px 0px 55px rgba(255, 255, 255, .15),inset 15px 0px 55px rgba(0, 0, 255, 0.9),2px 8px 8px rgba(0, 0, 0, .2);
+    color: white;
+}
+#navv label #menu:hover{
+    box-shadow:inset -80px 0px 28px rgba(0, 190, 255, .5),inset 80px 0px 38px rgba(6, 6, 122, 0.3);
+}
+#navv label #close{
+    font-size: 39px;;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background: transparent;
+    border-radius: 500px;
+    background-color: white;
+    border: 2px #277DFF solid;
+    box-shadow: inset 20px 0px 508px rgba(124, 171, 188, .4);
+    color: #277DFF;
+    top: -20px; left: -290px;
+    z-index: 2;
+}
+#navv label #close:hover{
+    box-shadow: inset 20px 0px 508px rgba(124, 171, 188, .5);
+}
+#navv #check:checked ~ .sidebar {left: 0;}
+#navv #check:checked ~ label #close{left: -0px;}
+#navv #check:checked ~ label #close{top: -20px;}
+#navv #check:checked ~ #navv{margin-left: 300px;}
+#navv {
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 480px) {
+    #navv label #menu{
+        margin-top: -770px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #navv label #menu{
+        margin-top: -770px;
+    }
+}

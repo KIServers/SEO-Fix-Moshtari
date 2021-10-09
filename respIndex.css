@@ -1,0 +1,183 @@
+@media screen and (max-width: 1500px) {
+    #main{
+        margin-right: 270px;
+    }
+    #info{
+        right: 0;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #main{
+        margin-left: -50px;
+    }
+    #info{
+        right: -20px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #main{
+        margin: auto;
+        margin-top: 200px;
+    }
+    #info{
+        left: 0;
+        right: -40px;
+    }
+    #ss{
+        display: block;
+    }
+    #ss2{
+        display: none;
+    }
+}
+@media screen and (max-width: 940px) {
+    #info2 .info-text2 {
+        width: 600px;
+        height: 500px;
+    }
+    .about-me2{
+        flex-wrap: wrap;
+    }
+    #nmr{
+        margin-right: -70px;
+    }
+    #skill{
+        display: block;
+    }
+    #job{
+        display: block;
+    }
+    .job-item{
+        margin: unset;
+        width: 99%;
+        margin-bottom: 10px;
+    }
+    #main{
+        width: 690px;
+        height: 2570px;
+    }
+    #about-me-title h1{
+        margin-top: 80px;
+    }
+    #info2{
+        width: 600px;
+    }
+    nav{
+        width: 688px;
+    }
+}
+@media screen and (max-width: 725px) {
+    #main{
+        width: 590px;
+    }
+    #con{
+        display: block;
+        margin-top: 80px;
+    }
+    #main{
+        height: 2670px;
+    }
+    .itm1{
+        margin-right: 0;
+    }
+    nav{
+        width: 588px;
+    }
+
+}
+@media screen and (max-width: 610px) {
+    #main{  
+        width: 450px;
+    }
+    #info2 .info-text2 {
+        width: 450px;
+        height: 580px;
+    }
+    #info2{
+        width: 450px;
+    }
+    #nmr{
+        margin-right: 0px;
+    }
+    #nmq{
+        margin-right: -70px;
+    }
+    #navv{
+        display: block !important;
+    }
+    .about-me2 a{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #info2 .info-text2 {
+        width: 350px;
+        height: 640px;
+    }
+    #main{  
+        width: 350px;
+        height: 2820px;
+    }
+    #info2{
+        width: 350px;
+        margin-top: -62px;
+    }
+    .job-item{
+        height: auto !important;
+        padding: 10px 20px 10px 20px;
+        text-align: justify;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    
+    
+}
+@media screen and (max-width: 350px) {
+    #info2 .info-text2 {
+        width: 320px;
+        height: 650px;
+    }
+    #main{  
+        width: 320px;
+        height: 2870px;
+    }
+    #info2{
+        width: 320px;
+        margin-top: -70px;
+    }
+    .job-item{
+        height: auto !important;
+        padding: 10px 20px 10px 20px;
+        text-align: justify;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    
+    
+}

@@ -1,0 +1,436 @@
+/* Fonts */
+@font-face {
+    font-family: 'LZ';
+    src: url("../fonts/LalezarFont.ttf");
+}
+@font-face {
+    font-family: 'AZ';
+    src: url("../fonts/Araz.ttf");
+}
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Selection */
+::selection{
+    color: #0045FF;
+}
+/* Body */
+body {
+    direction: rtl;
+    background-color: #e9ecef;
+    /* background-color: #e9ecef; */
+    color: #44566C;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-image: url(../imgs/top-right.png), url(../imgs/bottom-left.png);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    padding-bottom: 1127px;
+}
+
+/* Main Info DIV */
+#info {
+    width: 350px;
+    height: 1736vh;
+    position: fixed;
+    top: 5px;
+    left: 66%;
+}
+/* Profile img DIV */
+#info .info-text img {
+    position: relative;
+    top: -90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 500px;
+    box-shadow: -6px 9px 18px rgba(124, 171, 188, .8);
+}
+/* All Texts Control */
+#info .info-text {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    width: 310px;
+    height: 610px;
+    background-color: white;
+    box-shadow: -5px 5px 18px rgba(124, 171, 188, .5);
+    border-radius: 30px;
+}
+.in-text {
+    margin-top: -40px;
+}
+#info .info-text h3 {
+    font-size: 24px;
+    font-family: "lz";
+    margin-bottom: 12px;
+}
+/* Anche Mara Nakoshad ... */
+.anche{
+    background-color: #F0F0F6;
+    width: 210px;
+    margin: auto;
+    border-radius: 500px;
+    box-shadow: -2px 2px 18px rgba(124, 171, 188, .5);
+}
+.anche:hover{
+    box-shadow: -2px 2px 18px rgba(124, 171, 188, .4);
+}
+
+.info-text p{
+    
+    font-family: 'az';
+    font-size: 20px;
+}
+.social-top a{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.social-top a:nth-child(1){
+    margin-right: 0px;
+}
+.social-top{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.social-top a:hover{
+    color: #0045FF;
+    transition: all .4s ease-in;
+}
+.about-me{
+    margin-right: 50px;
+}
+
+/* Item N Setting */
+.about-item-n{
+    margin-bottom: 5px;
+}
+.about-item-n p{
+    font-size: 24px;
+    font-family: 'az';
+}
+.about-item-n i{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 22px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.about-item{
+    display: flex;
+    margin-bottom: 5px;
+}
+.about-item-n:hover{
+    color: #0045FF;
+    transition: all .4s ease-in;
+}
+/* Item A Setting */
+.about-item p{
+    font-size: 24px;
+    font-family: 'az';
+}
+.about-item i{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 22px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.about-item a{
+    text-decoration: none;
+    color: #44566C;
+}
+.about-me a:hover{
+    color: #0045FF;
+    transition: all .4s ease-in;
+}
+
+/* Botton Motaleat */
+.btn-mtm{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'lz';
+    background-color: #277DFF;
+    padding: 6px 82px 6px 82px;
+    border-radius: 500px;
+    box-shadow: inset -270px 0px 55px rgba(255, 255, 255, .25),inset 210px 0px 55px rgba(0, 0, 255, 0.6),2px 8px 8px rgba(0, 0, 0, .2);
+}
+#btn-bottm{
+    padding-top: 30px;
+}
+.btn-mtm:hover{
+    box-shadow:inset -80px 0px 28px rgba(0, 190, 255, .5),inset 80px 0px 38px rgba(6, 6, 122, 0.3);
+    transition: all .4s ease-in;
+}
+.btn-mtm i:hover{
+    color: rgba(255, 255, 255,.5);
+    transition: all .6s ease-in;
+}
+/* --------Main-------- */
+#main{
+    margin-right: 435px;
+    margin-top: 150px;
+    width: 930px;
+    height: auto;
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: -2px 2px 18px rgba(124, 171, 188, .5);
+}
+/* ------------Info 2------------ */
+#ss{
+    display: none; 
+}
+#info2 {
+    width: 930px;
+    /* height: 1736vh; */
+    position: relative;
+    top: 30px;
+    
+}
+#info2 .info-text2 img {
+    position: relative;
+    top: -90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 500px;
+    box-shadow: -6px 9px 18px rgba(124, 171, 188, .8);
+}
+/* All Texts Control */
+#info2 .info-text2 {
+    
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    width: 930px;
+    height: 438px;
+    background-color: white;
+    box-shadow: -5px 5px 18px rgba(124, 171, 188, .5);
+    border-radius: 30px;
+}
+.in-text2 {
+    margin-top: -60px;
+}
+#info2 .info-text2 h3 {
+    font-size: 28px;
+    font-family: "lz";
+    margin-bottom: 12px;
+}
+.anche2{
+    background-color: #F0F0F6;
+    width: 210px;
+    margin: auto;
+    border-radius: 500px;
+    box-shadow: -2px 2px 18px rgba(124, 171, 188, .5);
+}
+.anche2:hover{
+    box-shadow: -2px 2px 18px rgba(124, 171, 188, .2);
+}
+
+.info-text2 p{
+    font-family: 'az';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.social-top2 a{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.social-top2 a:nth-child(1){
+    margin-right: 0px;
+}
+.social-top2 a:hover{
+    color: #0045FF;
+    transition: all .3s ease-in;
+}
+.social-top2{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.about-me2{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.about-item-n2{
+    display: flex;
+    margin-right: 20px;
+}
+.about-item-n2:nth-child(1){
+    margin-right: 0px;
+}
+.about-item2{
+    display: flex;
+    margin-right: 20px;
+}
+.about-item-n2 p{
+    font-size: 24px;
+    font-family: 'az';
+}
+.about-item2 p{
+    font-size: 24px;
+    font-family: 'az';
+}
+.about-item-n2 i{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 22px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.about-item2 i{
+    text-decoration: none;
+    color: #44566C;
+    font-size: 22px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.about-item2 a{
+    text-decoration: none;
+    color: #44566C;
+}
+.about-me2 a:hover{
+    color: #0045FF;
+    transition: all .4s ease-in;
+}
+.about-item-n2:hover{
+    color: #0045FF;
+    transition: all .4s ease-in;
+}
+.btn-mtm2{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'lz';
+    background-color: #277DFF;
+    padding: 6px 82px 6px 82px;
+    border-radius: 500px;
+    box-shadow: inset -270px 0px 55px rgba(255, 255, 255, .25),inset 210px 0px 55px rgba(0, 0, 255, 0.6),2px 8px 8px rgba(0, 0, 0, .2);
+}
+.btn-mtm2:hover{
+    box-shadow:inset -80px 0px 28px rgba(0, 190, 255, .5),inset 80px 0px 38px rgba(6, 6, 122, 0.3);
+    transition: all .4s ease-in;
+}
+.btn-mtm2 i:hover{
+    color: rgba(255, 255, 255,.5);
+    transition: all .6s ease-in;
+}
+
+
+
+
+
+/* Main */
+/* About Me */
+#contact-title h1{
+    margin-top: -80px;
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+#contact-title h1 span{
+    padding-bottom: 4px;
+    border-bottom: 4px solid rgba(0, 68, 255, 0.9) ;
+    border-radius: 16px;
+}
+/* ّfields */
+#port-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+#port-items a{
+    color: #44566C;
+}
+.port-item{
+    width: 367px;
+    height: 330px;
+    box-shadow: -2px 2px 38px rgba(124, 171, 188, .5);
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+#port1 , #port3 ,#port5 {
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.port-pic div img{
+    width: 100%;
+    height: 180px;
+}
+#sws{
+    background-image: url(../imgs/ports/resume-9872.svg);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    border-radius: 40px;
+}
+.port-back {
+    border-radius: 38px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.port-top {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(124, 124, 124, 0.7);
+    opacity: 0;
+}
+.port-top:hover{
+    opacity: 1;
+    transition: all .6s ease-in-out;
+}
+.port-text{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#picc5 div img{
+    width: 100%;
+}
+
+
+
+/* contact me */
+#con{
+    margin-top: 70px;
+    margin-left: 45px;
+    display: flex;
+}
+#con h1{
+    font-size: 36px;
+    margin: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+    padding-bottom: 20px;
+}

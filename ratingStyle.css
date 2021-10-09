@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'LZ';
+  src: url(../fonts/LalezarFont.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "LZ";
+}
+
+.container {
+    box-shadow: 0px 5px 18px rgba(124, 171, 188, .5);
+    justify-content: center;
+    margin: auto;
+    direction: ltr;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.emoji {
+    font-size: 90px;
+    color: #f3c623;
+}
+.starsContainer i{
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffd84c;
+}
+#confrim-rat{
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .container
+    {
+        width: 270px !important;
+    }
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: #e9ecef;
+}
+
+#back{
+    margin-bottom: 30px;
+    width: 345px;
+    height: 28px;
+    background-color: white;
+    position: relative;
+    border-radius: 500px;
+    box-shadow:  inset -0px 0px 8px rgba(0, 0, 0, .3);
+}
+#ro{
+    color: white    ;
+    border-radius: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 276px;
+    height: 28px;
+    background-color: #0058FF;
+    z-index: 1;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    box-shadow: inset -100px 0px 28px rgba(0, 30, 255, .8), inset 100px 0px 28px rgba(0, 190, 255, .8),-2px 3px 8px rgba(0, 0, 0, .3);
+}
+#ro:hover{
+    box-shadow:inset 100px 0px 28px rgba(0, 190, 255, .9);
+    transition: all .3s ease-in;
+}
+@media screen and (max-width: 940px) {
+    #back{
+        width: 99% !important;
+    }
+    .rro1{ 
+        width: 80% !important;  
+    }
+    .rro2{ 
+        width: 80% !important;  
+    }
+    .rro3{ 
+        width: 85% !important;  
+    }
+    .rro4{ 
+        width: 90% !important;  
+    }
+    .rro5{ 
+        width: 75% !important;  
+    }
+    .rro6{ 
+        width: 65% !important;  
+    }
+    .rro7{ 
+        width: 70% !important;  
+    }
+    /* ---- */
+    .rqo1{ 
+        width: 80% !important;  
+    }
+    .rqo2{ 
+        width: 70% !important;  
+    }
+    .rqo3{ 
+        width: 75% !important;  
+    }
+    .rqo4{ 
+        width: 70% !important;  
+    }
+    .rqo5{ 
+        width: 50% !important;  
+    }
+    .rqo6{ 
+        width: 90% !important;  
+    }
+    .rqo7{ 
+        width: 80% !important;  
+    }
+}
+@media screen and (max-width: 610px) {
+    #back{
+        margin-right: -40px !important;
+    }
+}

@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'LZ';
+  src: url("../fonts/LalezarFont.ttf");
+}
+@font-face {
+  font-family: 'AZ';
+  src: url("../fonts/Araz.ttf");
+}
+
+* {
+  transition: all 0.5s;
+  font-family: 'LZ';
+}
+
+
+
+html, body {
+  direction: rtl;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  box-shadow: -5px 5px 18px rgba(124, 171, 188, .5);
+  margin: auto;
+  border-radius: 25px;
+  width: 640px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+
+.signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  z-index: 5;
+}
+
+.signup.slide-up {
+  top: 5%;
+  transform: translate(-50%, 0%);
+}
+
+.signup.slide-up .title {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.title {
+  margin-top: -20px;
+  color: #4b538a;
+  font-size: 28px;
+  text-align: center;
+}
+
+.title span {
+  opacity: 0;
+}
+
+.signup.slide-up span {
+  opacity: 1;
+  margin-right: 5px;
+  color: rgb(84, 72, 255);
+}
+
+.signup .holder {
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.input {
+  color: #44566C;
+  margin-top: 10px;
+  box-shadow: -2px 2px 18px rgba(124, 171, 188, .5);
+  font-size: 18px;
+  padding-right: 18px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 500px;
+  width: 100%;
+  height: 44px;
+  background-image: url('../imgs/user.svg');
+  background-position: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: none;
+  margin-bottom: 18px;
+}
+#in1{
+  background-image: url('../imgs/user.svg');
+}
+#in2{
+  background-image: url('../imgs/mail.svg');
+}
+#in3{
+  background-image: url('../imgs/pass.svg');
+}
+#in4{
+  background-image: url('../imgs/pass.svg');
+}
+#in5{
+  background-image: url('../imgs/mail.svg');
+}
+#in6{
+  background-image: url('../imgs/pass.svg');
+}
+.input:focus{
+  outline: none;
+  border: 1px #1900ff solid;  
+  transition: all 0s ease-in;
+}
+
+.submit {
+  background-color: #277DFF;
+  box-shadow: inset -470px 0px 55px rgba(255, 255, 255, .25), inset 410px 0px 55px rgba(0, 0, 255, 0.6), 2px 8px 8px rgba(0, 0, 0, .2);
+  color: #f5f5f5;
+  border: none;
+  border-radius: 15px;
+  margin: 15px auto;
+  padding: 15px 45px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.signup .submit:hover {
+  box-shadow: inset -80px 0px 28px rgba(0, 190, 255, .5), inset 80px 0px 38px rgba(6, 6, 122, 0.3);
+  transition: all .5s ease-in;
+}
+
+.login {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00B3FF;
+  z-index: 5;
+}
+
+.container .login::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translate(-50%, 0);
+  background-color: #00B3FF;
+  width: 200%;
+  height: 250px;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.center {
+  top: calc(50% - 10%);
+}
+
+.login .holder {
+  border-radius: 15px;
+  background-color: #00B3FF;
+  border: 2px solid #00B3FF;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.login .submit:hover {
+  box-shadow: inset -80px 0px 28px rgba(0, 190, 255, .5), inset 80px 0px 38px rgba(6, 6, 122, 0.3);
+  transition: all .4s ease-in;
+}
+
+.login.slide-up {
+  top: 90%;
+}
+
+.login.slide-up .center {
+  top: 10%;
+  transform: translate(-50%, 0%);
+}
+
+.login.slide-up .title {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.login.slide-up span {
+  color: rgb(84, 72, 255);
+  opacity: 1;
+  margin-right: 5px;
+}

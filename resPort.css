@@ -1,0 +1,222 @@
+@media screen and (max-width: 1500px) {
+    #main{
+        margin-right: 270px;
+    }
+    #info{
+        right: 0;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #main{
+        margin-left: -50px;
+    }
+    #info{
+        right: -20px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #main{
+        margin: auto;
+        margin-top: 200px;
+    }
+    #info{
+        left: 0;
+        right: -40px;
+    }
+    #ss{
+        display: block;
+    }
+    #ss2{
+        display: none;
+    }
+}
+@media screen and (max-width: 940px) {
+    .port-item{
+        margin-right: 20px !important;
+        width: 530px;
+        height: 408px;
+    }
+    .port-back , .port-top{
+        height: 300px !important;
+    }
+
+
+    #info2 .info-text2 {
+        width: 600px;
+        height: 500px;
+    }
+    .about-me2{
+        flex-wrap: wrap;
+    }
+    #nmr{
+        margin-right: -70px;
+    }
+    #main{
+        width: 690px;
+        height: auto;
+    }
+    #info2{
+        width: 600px;
+    }
+    #contact-title h1 {
+        margin-top: 80px;
+    }
+    #tags p {
+        margin-bottom: 20px;
+    }
+    nav{
+        width: 688px;
+    }
+}
+@media screen and (max-width: 725px) {
+    .port-item{
+        margin-right: 20px !important;
+        width: 460px;
+        height: 408px;
+    }
+    .port-back , .port-top{
+        height: 300px !important;
+    }
+
+
+    #main{
+        width: 590px;
+    }
+    #con{
+        display: block;
+        margin-top: 80px;
+    }
+    .button2{
+        margin-right: 95%;
+    }
+
+    #main{
+        height: auto;
+    }
+    nav{
+        width: 588px;
+    }
+
+}
+@media screen and (max-width: 610px) {
+    .port-item{
+        margin-right: 0px !important;
+        width: 380px;
+        height: 328px;
+    }
+    .port-back , .port-top{
+        height: 200px !important;
+    }
+
+    
+    #main{  
+        width: 450px;
+    }
+    #info2 .info-text2 {
+        width: 450px;
+        height: 580px;
+    }
+    #info2{
+        width: 450px;
+    }
+    #nmr{
+        margin-right: 0px;
+    }
+    #nmq{
+        margin-right: -70px;
+    }
+    #navv{
+        display: block !important;
+    }
+    .about-me2 a{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .port-item{
+        margin-right: 0px !important;
+        width: 275px;
+        height: 388px;
+    }
+    .port-back , .port-top{
+        height: 220px !important;
+    }
+
+
+
+    #info2 .info-text2 {
+        width: 350px;
+        height: 640px;
+    }
+    #main{  
+        width: 350px;
+        height: auto;
+    }
+    #info2{
+        width: 350px;
+        margin-top: -62px;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    
+    
+}
+@media screen and (max-width: 350px) {
+    .port-item{
+        margin-right: 0px !important;
+        width: 240px;
+        height: 408px;
+    }
+    .port-back , .port-top{
+        height: 220px !important;
+    }
+
+
+
+
+    #info2 .info-text2 {
+        width: 320px;
+        height: 650px;
+    }
+    #main{  
+        width: 320px;
+        height: auto;
+    }
+    #info2{
+        width: 320px;
+        margin-top: -70px;
+    }
+    .about-me2 a{
+        margin-bottom: 0;
+    }
+    .about-me2{
+        display: block !important ;
+    }
+    #nmq{
+        margin-right: 20px !important;
+    }
+    .about-item-n2:nth-child(1) {
+        margin-right: 20px;
+    }
+    #nmr {
+        margin-right: 20px;
+    }
+    #con h1{
+        font-size: 33px;
+    }
+    
+    
+}
